@@ -1,3 +1,7 @@
-#!/usr/bin/env python3
+# an_assertion_error.py
 
-assert(1 == 2)
+def evaluate_two_values(a, b):
+    assert a == b, "Values are not equal"
+    return True
+
+print(evaluate_two_values(2, 2))  # Should not raise an AssertionError

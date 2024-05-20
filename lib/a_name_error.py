@@ -1,3 +1,6 @@
-#!/usr/bin/env python3
+# a_name_error.py
 
-print(hello_world)
+def hello_world():
+    return "Hello, world!"
+
+print(hello_world())

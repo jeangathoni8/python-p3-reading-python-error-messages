@@ -1,3 +1,6 @@
-#!/usr/bin/env python3
+# lib/a_syntax_error.py
 
-poor_syntax = 2 * #
+def multiply_two_numbers(a, b):
+    return a * b
+
+print(multiply_two_numbers(2, 3))

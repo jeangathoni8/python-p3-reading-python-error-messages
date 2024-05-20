@@ -1,3 +1,6 @@
-#!/usr/bin/env python3
+# a_type_error.py
 
-wrong_type = 'abc' + 123
+def add_two_numbers(a, b):
+    return a + b
+
+print(add_two_numbers(2, 3))  # Should print 5
